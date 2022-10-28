@@ -26,16 +26,6 @@ class UserProfile extends StatelessWidget {
       backgroundColor: Colors.black,
       child: CustomScrollView(
         slivers: [
-          // CupertinoSliverNavigationBar(
-          //   automaticallyImplyTitle: false,
-          //   padding: EdgeInsetsDirectional.all(200),
-          //   stretch: false,
-          //   largeTitle: Container(
-          //     height: 200,
-          //     width: double.infinity,
-          //     color: Colors.deepOrange,
-          //   ),
-          // ),
           SliverAppBar(
             toolbarHeight: MediaQuery.of(context).padding.top + 80,
 
